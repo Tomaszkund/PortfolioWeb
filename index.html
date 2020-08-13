@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="front-end, html, css, JavaScript, webdeveloper, portfolio, react.js," />
+
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- /Favicon attached -->
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+
+    <script src="js/app.js"></script>
+    
+
+    <link rel="icon" href="favicon.png" sizes="16x16" type="image/png" />
+    <link rel="icon" href="favicon.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="favicon.png" sizes="64x64" type="image/png" />
+    <link rel="icon" href="favicon.png" sizes="96x96" type="image/png" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    
+
+    <title>Tomasz Kundys | Portfolio Front-End</title>
+</head>
+
+<body>
+  
+
+    <!-- NAVIGATION -->
+    
+    <div class="navigation">
+      <input
+        type="checkbox"
+        class="navigation__checkbox"
+        id="navi-toggle"
+      ></input>
+      <label
+        for="navi-toggle"
+        class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a
+              href="#home"
+              class="navigation__link"
+              aria-label="Home"
+            >Home</a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#about"
+              class="navigation__link"
+              aria-label="About"
+            >O mnie</a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#projects"
+              class="navigation__link"
+              aria-label="Projects"
+            >Projekty</a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#tech"
+              class="navigation__link"
+              aria-label="Tech"
+            >Technologie</a>
+          </li>
+          <li class="navigation__item">
+            <a
+              href="#contact"
+              class="navigation__link"
+              aria-label="Contact"
+            >Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  
+  <!-- HEADER -->
+    <header class="header" id="home">
+    <div  id="particles-js"></div>
+  <div class="header__wrapper">
+      <div class="header__logo-box">
+        <div class="header__logo"></div>
+  
+        </div>
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main ">Tomasz <span class="strong">Kundys</span></span>
+        <span id="typed-pl" class="typed"></span>
+  
+        <span id="typed"></span>
+        <span class="heading-primary--sub">Front-End Developer</span>
+      </h1>
+  
+      <a href="#projects" class="header__btn btn btn--white btn--animated" aria-label="View Projects">Zobacz projekty</a>
+      <a href="./assets/CV_Tomasz_Kundys.pdf" class="header__btn btn btn--white btn--animated">Moje CV</a>
+  
+    <div class="header__socials">
+        <ul>
+          <li>
+            <a
+              href="https://github.com/Tomaszkund"
+              target="_blank" rel="noopener noreferrer"
+              aria-label="Github"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/tomasz-kundys-b026331aa/"
+              target="_blank" rel="noopener noreferrer"
+              aria-label="Linkedin"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/tomasz.kundys"
+              target="_blank" rel="noopener noreferrer"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+  </div>
+  
+    </header>
+  
+    <!-- SECTION ABOUT -->
+  
+    <section
+      class="about"
+      id="about"
+    >
+    <div class="about__container">
+      <img class="about__img" src="images/face.jpg"alt="Author photo">
+  
+      <div class="about__content">
+          <h2>Kilka słów o mojej osobie...</h2>
+          <h3>pozwól, że się przedstawie...</h3>
+          <p>
+              Mam na imię Tomasz. Mieszkam od urodzenia w <b>Radomiu</b>, czyli już 23 lata. 
+            </p>
+            <br>
+            <p>
+              Obecnie studiuję w Radomiu na Uniwersytecie Technologiczno-Humanistyczny im. Kazimierza Pułaskiego w Radomiu. Przede mną ostatni semestr do uzyskania tytułu inż.
+            </p>
+            <br>
+            <p>
+              Obecnie <strong>szukam pierwszej pracy w IT</strong> jako Junior Front-End Developer, w której mógłbym zdobyć niezbędne doświadczenie i poszerzyć swoją wiedzę. Na ten moment realizuje indwidualne projekty. Niektóre z nich można zobaczyć na moim Githubie - <a href="https://github.com/Tomaszkund" class="link_git" ><b>Github</b></a>                                  
+          </p>
+      </div>
+    </div>
+    </section>
+  
+    <!-- SECTION PROJECTS -->
+  
+    <section
+      class="divider"
+      id="projects">
+  
+      <div class="divider__wrapper">
+        <h2 class="divider__title">Projekty</h2>
+  
+        <p class="divider__desc">
+            MOJE PROJEKTY prezentowane poniżej. Wiele z nich jest jeszcze nie opublikowane z racji ich modyfikacji.  <a
+            href="https://github.com/Tomaszkund"
+            class="divider__link"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project1 Github"
+          >Github</a>
+        </p>
+      </div>
+    </section>
+  
+    <!-- SECTION MY PROJECTS -->
+  
+    <section class="projects">
+      <div class="projects__wrapper">
+      <div class="project">
+        <div class="card-top">
+          <figure class="project__img  card-top__fig">
+  
+            <img
+              class="card-top__img"
+              src="images/Booking Website.png"
+              alt="Mockup project 1">
+  
+            <figcaption class="card-top__figcap">
+              <h2 class="card-top__heading">
+                <span>Booking Website</span>
+              </h2>
+  
+              <ul>
+                <li>HTML</li>
+  
+                <li>CSS</li>
+  
+                <li>Sass</li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+  
+        <h5 class="project__name">Booking Webiste</h5>
+  
+        <div class="project__description">
+          <p style="text-align: center;">
+            Landing Page Booking Website. Strona Hotelowa zbudowana przy pomocy Flexbox. Strona inspirowana kursem Udemy Advanced CSS and Sass: Flexbox, Grid, Animations and More!
+          </p>
+        </div>
+  
+        <div class="project__btns-wrapper">
+          <a
+            href="https://github.com/Tomaszkund/Booking_website"
+            class="project__btn btn btn--anim1 btn--inverted"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project1 Github"
+          >Github</a>
+  
+          <a
+            href="https://tomaszkund.github.io/Booking_website/"
+            class="project__btn btn btn--anim1 btn--inverted"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project1 Live Demo"
+          >Live</a>
+        </div>
+      </div>
+  
+  
+      <div class="project">
+        <div class="card-top">
+          <figure class="project__img  card-top__fig">
+            <img
+              class="card-top__img"
+              src="images/Weather App.png"
+              alt="Mockup project 3">
+  
+            <figcaption class="card-top__figcap">
+              <h2 class="card-top__heading">
+                <span>Weather App</span>
+              </h2>
+  
+              <ul>
+                <li>HTML</li>
+  
+                <li>CSS</li>
+  
+                <li>JS</li>
+                
+                <li>jQuery</li>
+
+                <li>API's</li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+  
+        <h5 class="project__name">Weather App</h5>
+  
+        <div class="project__description">
+          <p style="text-align: center;">
+            Prosta Aplikacja pogodowa w języku JavaScript. Wybierz swoje miasto i zobacz pogodę przez animację filmowe. Informacje dotyczące: temp, ciśnienia i wiatru. Przy pomocy Api GoogleMap and OpenWeatherMap
+          </p>
+        </div>
+  
+        <div class="project__btns-wrapper">
+          <a
+            href="https://github.com/Tomaszkund/Weather_app"
+            class="project__btn btn btn--anim1 btn--inverted"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project3 Live Demo"
+          >Github</a>
+  
+          <a
+            href="https://tomaszkund.github.io/Weather_app/"
+            class="project__btn btn btn--anim1 btn--inverted"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project3 Github"
+          >Live</a>
+        </div>
+      </div>
+      <div class="project">
+        <div class="card-top">
+          <figure class="project__img  card-top__fig">
+            <img
+              class="card-top__img"
+              src="images/HotelBook.png"
+              alt="Mockup project 5"
+            >
+            <figcaption class="card-top__figcap">
+              <h2 class="card-top__heading">
+                
+                <span>HotelBook</span>
+              </h2>
+              <ul>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Mongo</li>
+                <li>Bootsrap</li>
+                <li>Express</li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+        <h5 class="project__name">HotelBook App </h5>
+        <div class="project__description">
+          <p style="text-align: center;">
+            HotelBook web app RESTfull routing. Stworzona przy użyciu Node.js. W aplikacji dodane są funkcjonalności, takie jak:
+            |Logowanie i rejestracja|, |Uwierzytelnianie|, |Sekcja komentarzy i ocenianie|, |CRUD (Create, Read, Update, Delete)|, |Powiadomienia FLASH|. Jest to mój największy projekt, w którym będzie poprawiany layout.
+
+
+
+          </p>
+        </div>
+        <div class="project__btns-wrapper">
+          <a
+            href="https://github.com/Tomaszkund/HotelBook"
+            class="project__btn btn btn--anim1 btn--inverted"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project4 Github"
+          >Github</a>
+          <a
+            href="https://github.com/Tomaszkund/HotelBook"
+            class="project__btn btn btn--anim1 btn--inverted"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project4 Live Demo"
+          >Live</a>
+        </div>
+      </div>
+
+      
+      <div class="project">
+        <div class="card-top">
+          <figure class="project__img  card-top__fig">
+            <img
+              class="card-top__img"
+              src="images/BlogApp.png"
+              alt="Mockup project 7"
+            >
+            <figcaption class="card-top__figcap">
+              <h2 class="card-top__heading">Blog App</h2>
+              <ul>
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Bootsrap</li>
+                <li>Semantic UI</li>
+                </li>
+              </ul>
+            </figcaption>
+          </figure>
+        </div>
+  
+        <h5 class="project__name">Blog App</h5>
+        <div class="project__description">
+          <p style="text-align: center;">
+            Blog App to prosty blog działający na silnikuj Node.js, frameworku Express. Blog pozwala na dodanie tytułu, zdjęcia, opisu, późniejszej edycji czy usunięcie danego artykułu. Stworzony w celu zapoznania się z Node.js, Express'em, zaznajomieniem się z CRUD. 
+          </p>
+        </div>
+        <div class="project__btns-wrapper">
+          <a
+            href="https://github.com/Tomaszkund/Blog_app"
+            class="project__btn btn btn--anim1 btn--inverted"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project5 Github"
+          >Github</a>
+          <a
+            href="https://github.com/Tomaszkund/Blog_app"
+            class="project__btn btn btn--anim1 btn--inverted"
+            target="_blank" rel="noopener noreferrer"
+            aria-label="Project5 Live Demo"
+          >Live</a>
+        </div>
+      </div>
+      
+    
+          
+          </div>
+        </div>
+    </div>
+    </section>
+  
+  <!-- SECTION TECH -->
+    <section
+      class="tech"
+      id="tech"
+    >
+    <div class="tech__wrapper ">
+        <div class="tech__content-wrapper">
+          <h2 class="tech__title heading-tertiary">
+            Technologie/Narzędzia 
+          </h2>
+          <p class="tech__desc paragraph " style="text-align: center;">Technologie/Narzędzia, z którymi współpracowałem w ostatnich swoich projektach</p>
+          <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+              <li>Bootsrap</li>
+              <li>NPM</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div class="tech__logos-wrapper">
+            <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-html5"></use>
+            </svg>
+            <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-css3"></use>
+            </svg>
+            <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-sass"></use>
+            </svg>
+            <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-javascript"></use>
+            </svg>
+            <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-jquery"></use>
+            </svg>
+            
+            <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-bootstrap"></use>
+            </svg>
+            <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-npm"></use>
+            </svg>
+            <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-git"></use>
+            </svg>
+            
+            
+            
+  
+        </div>
+    </div>
+    <div class="tech__wrapper ">
+        <div class="tech__content-wrapper tech__content-wrapper--reversed">
+        <h2 class="tech__title heading-tertiary">
+              W <b>najbliższym</b> czasie
+        </h2>
+        <p class="tech__desc paragraph" style="text-align: center;">W <b>najbliższym</b> czasie chciałbym poznać lepiej wymienione technologie</p>
+        </div>
+        <div class="tech__logos-wrapper">
+          <svg class="tech__logo">
+            <use xlink:href="assets/icons/sprite.svg#icon-react"></use>
+          </svg>
+          <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-redux"></use>
+            </svg>
+          <svg class="tech__logo">
+              <use xlink:href="assets/icons/sprite.svg#icon-firebase"></use>
+          </svg>
+          <svg class="tech__logo">
+            <use xlink:href="assets/icons/sprite.svg#icon-wordpress"></use>
+          </svg>
+          <svg class="tech__logo">
+            <use xlink:href="assets/icons/sprite.svg#icon-node-dot-js"></use>
+          </svg>
+
+        </div>
+      </div>
+  
+    </section>
+  
+    <!-- FOOTER -->
+    <footer
+      id="contact"
+      class="footer"
+    >
+      <div class="footer__container">
+        <div class="footer__contact">
+          <h3>Kontakt</h3>
+          <ul>
+            <li>
+              <i class="fas fa-mobile-alt"></i>
+              Tel: 694 933 840
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              email: tomasz.kundys@gmail.com
+            </li>
+            <li>
+                <a
+                href="./assets/CV_Tomasz_Kundys.pdf"
+                class="footer__cv header__btn btn btn--white btn--animated"
+              >Curriculum vitae
+            </a>
+              
+            </li>
+   
+          </ul>
+        </div>
+        <div class="footer__socials">
+          <h3>Social Media</h3>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/Tomaszkund"
+                target="_blank" rel="noopener noreferrer"
+                aria-label="Github"
+              >
+                <i class="fab fa-github"></i>
+                Github
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/tomasz-kundys-b026331aa/"
+                target="_blank" rel="noopener noreferrer"
+                aria-label="Linkedin"
+              >
+                <i class="fab fa-linkedin"></i>
+                Linkedin
+              </a>
+            </li>
+  
+            <li>
+              
+            </li>
+            <li>
+              <a href="https://www.facebook.com/tomasz.kundys" target="_blank" rel="noopener noreferrer"aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+                Facebook
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/caption.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+   <script>
+   
+   let typedPl = new Typed("#typed-pl", {
+      strings: [
+        "ambitious",
+        "determined",
+        "curious",
+        "curious",
+        "controlled"
+      ],
+      typeSpeed: 100,
+      loop: true,
+      showCursor: false
+    });
+   </script>
+
+
+
+
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/TextPlugin.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/EasePack.min.js"></script>
+   
+   <script src="/JS/app.js"></script>
+   <script src="/JS/main.js"></script> -->
+</body>
+</html>
